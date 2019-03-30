@@ -14,7 +14,7 @@ fs.readdir("./commands/", (err, files) => {
 bot.on('ready', () => {
   var statuses = [`Over ${bot.guilds.size}`, "For !help", "Supporting your servers!"]
   var result = statuses[Math.floor(Math.random() * statuses.length)]
-  bot.user.setActivity(`Loading Himiachi...`, {type: "STREAMING", url: "https://twitch.tv/freakinghulk"})
+  bot.user.setActivity(`Loading Corgi Bot...`, {type: "STREAMING", url: "https://twitch.tv/freakinghulk"})
   setTimeout(() => {
     setInterval(() => {
       if (result == statuses[0]) {
