@@ -5,6 +5,7 @@ module.exports.run = (bot, message, args, Discord) => {
   .addField("help", "Displays this message!")
   .setColor("GREEN")
   .setFooter(`Requested by ${message.author.username}`)
+  message.channel.send({embed: em})
 }
 
 module.exports.help = {
