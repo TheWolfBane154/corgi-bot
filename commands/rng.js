@@ -12,6 +12,8 @@ let success = new Discord.RichEmbed()
   
   if(!arg) {
   message.channel.send({embed: error})
+  } elsif(isNaN) {
+  message.channel.send("Please send a number not text.")
   } else {
   message.channel.send({embed: success})
   }
