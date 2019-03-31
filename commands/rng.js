@@ -7,7 +7,7 @@ let error = new Discord.RichEmbed()
   
 let success = new Discord.RichEmbed()
   .setTitle("Corgi Number Generator Success!")
-  .addField("Your number is:", Math.floor(math.random()* args))
+  .addField("Your number is:", Math.floor(Math.random()* arg))
   .setColor("GREEN")
   
   if(!arg) {
