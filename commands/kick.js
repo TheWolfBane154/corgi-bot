@@ -1,5 +1,5 @@
 module.exports.run = (bot, message, args, Discord) => {
-  let args.slice(1).join(" ")
+  let reason = args.slice(1).join(" ")
   let member = message.mentions.members.first();
   //Person your kicking and reason
   let faillop = new Discord.RichEmbed()
