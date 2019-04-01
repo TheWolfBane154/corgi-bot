@@ -17,7 +17,7 @@ module.exports.run = (bot, message, args, Discord) => {
   .addField(`Successfuly kicked ${member}, good riddens.`)
   
   if(!member) {
-  message.channel.send({embed: failnm}).then(return;)
+  message.channel.send({embed: failnm})
   } else if(!message.member.hasPermission(["KICK_MEMBERS"])) {
   message.channel.send({embed: faillop})
   } else {
