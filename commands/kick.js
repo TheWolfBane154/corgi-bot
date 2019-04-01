@@ -14,7 +14,7 @@ module.exports.run = (bot, message, args, Discord) => {
 
   let success = new Discord.RichEmbed()
   .setTitle("Corgi Bot Kick")
-  .addField(`Successfuly kicked ${member}, good riddens.`, `For the reason of: ${reason}`)
+  .addField(`Successfuly kicked ${member.displayname}, good riddens.`, `For the reason of: ${reason}`)
   .setColor("GREEN")
   
   if(!member) {
